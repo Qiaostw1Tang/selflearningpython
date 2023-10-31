@@ -1,0 +1,10 @@
+print(3>2)
+print(3==3)
+print(3!=3)
+print(3<2)
+print(3>=3)
+print(3<=2)
+#返回布尔值True或False
+print(1+True)
+print(1+False)
+#True=1，False=0，可运算
