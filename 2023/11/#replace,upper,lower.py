@@ -1,0 +1,12 @@
+#replace,upper,lower
+s1="我是一二三一二三一二三四五六七八九"
+res=s1.replace('一二三','你不是',2)
+res1=s1.replace('一二三','你不是',1)
+print(s1)
+print(res)
+print(res1)
+s2=("ASDFGHJKLQWERTYUIOPZXCVBNMzxcvbnm,asdfghjklqwertyuiop")
+res3=s2.lower()
+res4=s2.upper()
+print(res3)
+print(res4)
