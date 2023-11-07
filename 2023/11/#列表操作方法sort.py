@@ -1,0 +1,11 @@
+#列表操作方法sort
+a=["hello","啊","1","world","hw","python","4"]
+a.sort()#按ASCII排序
+print(a)
+b=[1,2,3,444,222,433]
+c=[1,2,3,444,222,433]
+c.sort()
+print(c)
+b.sort(reverse=True)#倒序排序
+print(b)
+#只有同类型数据可以进行排列，如c中加非数字字符会报错
